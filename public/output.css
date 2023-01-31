@@ -839,10 +839,6 @@ video {
   border-bottom-width: 8px;
 }
 
-.border-b-2{
-  border-bottom-width: 2px;
-}
-
 .border-transparent{
   border-color: transparent;
 }
@@ -855,11 +851,6 @@ video {
 .border-peach{
   --tw-border-opacity: 1;
   border-color: rgb(255 111 89 / var(--tw-border-opacity));
-}
-
-.border-white{
-  --tw-border-opacity: 1;
-  border-color: rgb(255 255 255 / var(--tw-border-opacity));
 }
 
 .bg-transparent{
@@ -953,6 +944,11 @@ video {
   padding-bottom: 2rem;
 }
 
+.px-5{
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
 .px-6{
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -976,11 +972,6 @@ video {
 .py-20{
   padding-top: 5rem;
   padding-bottom: 5rem;
-}
-
-.px-5{
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
 }
 
 .pb-16{
@@ -1310,6 +1301,10 @@ video {
     order: 9999;
   }
 
+  .md\:mt-0{
+    margin-top: 0px;
+  }
+
   .md\:inline-block{
     display: inline-block;
   }
@@ -1342,6 +1337,10 @@ video {
     align-items: center;
   }
 
+  .md\:justify-between{
+    justify-content: space-between;
+  }
+
   .md\:gap-x-16{
     -moz-column-gap: 4rem;
          column-gap: 4rem;
@@ -1358,14 +1357,6 @@ video {
   .md\:px-12{
     padding-left: 3rem;
     padding-right: 3rem;
-  }
-
-  .md\:pt-32{
-    padding-top: 8rem;
-  }
-
-  .md\:pb-40{
-    padding-bottom: 10rem;
   }
 
   .md\:text-left{
@@ -1511,32 +1502,12 @@ video {
     padding-bottom: 6rem;
   }
 
-  .xl\:pt-32{
-    padding-top: 8rem;
-  }
-
-  .xl\:pt-24{
-    padding-top: 6rem;
-  }
-
-  .xl\:pb-40{
-    padding-bottom: 10rem;
-  }
-
-  .xl\:pb-32{
-    padding-bottom: 8rem;
-  }
-
-  .xl\:pt-20{
-    padding-top: 5rem;
+  .xl\:pt-14{
+    padding-top: 3.5rem;
   }
 
   .xl\:pb-28{
     padding-bottom: 7rem;
-  }
-
-  .xl\:pt-14{
-    padding-top: 3.5rem;
   }
 
   .xl\:text-7xl{
